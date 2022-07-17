@@ -1,0 +1,46 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.page-header {
+    background-color: forestgreen;
+}
+
+.footer {
+    background-color: forestgreen;
+}
+
+#gallery {
+    background-image: url('/img/shamrock.png');
+    background-color: rgba(255,255,255,0.75);
+    background-blend-mode: lighten;
+}
+
+
+.thumb {
+    border: 5px;
+    border-style: solid;
+    border-color: beige;
+    box-shadow: -2px 2px 10px rgba(0,0,0,0.5);
+}
+
+h1 {
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#footer {
+    margin: 0;
+    padding: 3em;
+    background-color: lightslategray;
+}

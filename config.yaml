@@ -1,0 +1,22 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: My New Hugo Site
+
+params:
+    customvariable: 15
+
+menu:
+    main:
+    -   identifier: home
+        name: Home
+        url: /
+
+    -   identifier: about
+        name: About
+        url: /about/
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+            
