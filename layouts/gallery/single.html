@@ -6,7 +6,7 @@
             {{ range $images }}
                 {{ $resized := .Resize "350x" }}
                 <div class="col-6 col-md-4 col-xl-3 pb-3 px-2">
-                    <a href="{{ .Permalink }}" data-toggle="lightbox"><img src="{{ $resized }}" class="thumb img-fluid"/></a>
+                    <a href="{{ .Permalink }}" data-toggle="lightbox"><img src="{{ $resized.Permalink }}" class="thumb img-fluid"/></a>
                 </div>
             {{ end }}    
         </div>
